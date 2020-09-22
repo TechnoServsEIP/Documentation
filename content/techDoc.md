@@ -24,7 +24,7 @@ Le backend utilise la librairie standard de test de golang et les github action 
 (voir Tests)
 
 Le déploiement de la solution est automatisé via github action.
-Le dashboard est déployé sur Netlify. Le site se trouve sur le lien suivant: [technoservs.ichbinkour.eu](technoservs.ichbinkour.eu). (voir Déploiement de la solution)
+Le dashboard est déployé sur Netlify. Le site se trouve sur le lien suivant: [technoservs.ichbinkour.eu](https://technoservs.ichbinkour.eu). (voir Déploiement de la solution)
 
 ## Cartouche du document
 | Titre               	| Documentation technique                                         	|
@@ -174,5 +174,5 @@ Voir la documentation pour plus de détails: [https://doc.ubuntu-fr.org/incron](
 
 ## Dashboard
 
-Le Front-End de Technoservs est deployé via Netlify sur le lien suivant: [technoservs.ichbinkour.eu](technoservs.ichbinkour.eu).
+Le Front-End de Technoservs est deployé via Netlify sur le lien suivant: [technoservs.ichbinkour.eu](htpps://technoservs.ichbinkour.eu).
 
