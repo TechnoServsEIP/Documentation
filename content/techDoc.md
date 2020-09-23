@@ -1,5 +1,5 @@
 +++
-title = "User Documentation"
+title = "Technical Documentation"
 date = "2020-08-16"
 author = "TechnoServs Team"
 +++
