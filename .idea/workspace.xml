@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="919ed197-e733-4950-a161-be359dfed8ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/archetypes/default.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/techDoc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/userDoc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/TD/archi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/TD/azure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/TD/diagramClass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/TD/github1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/TD/github2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/TD/hangout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/TD/schema.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/TD/slack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/TD/trello.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/UD/SchémaFonctionnel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/UD/create1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/UD/create2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/UD/create3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/UD/create4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/UD/env.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/UD/instances.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/UD/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/UD/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/UD/register.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/UD/servInfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ts-logo-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ts-logo-small.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/.eslintrc.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/COMMUNITY-FEATURES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/USERS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/archive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/buttons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/logo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/post.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/terms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-BoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-MediumItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-MediumItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/js/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/js/prism.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/exampleSite/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/exampleSite/content/about.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/exampleSite/content/archive.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/exampleSite/content/post/hello.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/exampleSite/content/showcase.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/exampleSite/static/img/hello.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/images/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/images/tn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/_default/baseof.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/_default/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/_default/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/_default/rss.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/_default/single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/_default/terms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/archive/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/analytics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/extended_footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/extended_head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/greater-icon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/lastmod.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/logo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/prepended_head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/theme-icon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/shortcodes/code.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/shortcodes/figure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/shortcodes/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/shortcodes/imgproc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-BoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-MediumItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-MediumItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/prism.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/theme.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hello-friend/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/UserDocPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-280">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#238#299#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/Documentation/GettingStarted.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/BreadCrumbsUser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/views/userDocPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config.toml" />
+        <option value="$PROJECT_DIR$/content/_index.md" />
+        <option value="$PROJECT_DIR$/content/techDoc.md" />
+        <option value="$PROJECT_DIR$/src/views/LandingPage/BlogExtract/GettinStarted.js" />
+        <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPage.js" />
+        <option value="$PROJECT_DIR$/src/views/LandingPage/Sections/BlogExtractSection.js" />
+        <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/cardHeaderStyle.js" />
+        <option value="$PROJECT_DIR$/src/views/LandingPage/LandingPage.js" />
+        <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
+        <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/headerLinksStyle.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/TechnicalDocumentationPage.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/TechnicalDocPage.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/BreadCrumbsTechnical.js" />
+        <option value="$PROJECT_DIR$/src/components/Header/HeaderLinks.js" />
+        <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/userDocPage.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/UserDocumentation/UserDocPage.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/UserDocumentation/BreadCrumbsUser.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/Documentation.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Documentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Documentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Documentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Documentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Documentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="TechnicalDocumentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Documentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="UserDocumentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Documentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="LandingPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Documentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="LandingPage" type="462c0819:PsiDirectoryNode" />
+              <item name="Sections" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/Blog/UserDocumentation" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views/Blog/UserDocumentation" />
+      <recent name="$PROJECT_DIR$/src/assets/img/logo" />
+      <recent name="$PROJECT_DIR$/src/views/LandingPage" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="919ed197-e733-4950-a161-be359dfed8ed" name="Default Changelist" comment="" />
+      <created>1600801492129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600801492129</updated>
+      <workItem from="1600801493644" duration="4853000" />
+      <workItem from="1605740363419" duration="17400000" />
+      <workItem from="1605802939055" duration="349000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22602000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2686747" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/ts-logo-small.svg" />
+    <entry file="file://$PROJECT_DIR$/config.toml" />
+    <entry file="file://$PROJECT_DIR$/content/_index.md" />
+    <entry file="file://$PROJECT_DIR$/content/userDoc.md" />
+    <entry file="file://$PROJECT_DIR$/content/techDoc.md" />
+    <entry file="file://$PROJECT_DIR$/src/views/LandingPage/Sections/TeamSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/LandingPage/Sections/ProductSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-445">
+          <caret selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPageSections/workStyle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="57" lean-forward="true" selection-start-column="57" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/LandingPage/Sections/WorkSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#157#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPageSections/productStyle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="57" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/LandingPage/BlogExtract/GettinStarted.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/logo/ts-logo-full-white-green.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/LandingPage/ts-logo-full-white-green.svg" />
+    <entry file="file://$PROJECT_DIR$/src/assets/img/logo/ts-logo-small.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/components/cardHeaderStyle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/components/headerLinksStyle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#227#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/TechnicalDocPage.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#249#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderLinks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#283#337#0" expanded="true" />
+            <element signature="e#582#638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/BreadCrumbsTechnical.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#39#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/LandingPage/Sections/BlogExtractSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="62" column="52" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="52" />
+          <folding>
+            <element signature="e#59#113#0" expanded="true" />
+            <element signature="e#195#251#0" expanded="true" />
+            <element signature="e#318#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/components/headerStyle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1705">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/LandingPage/LandingPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#238#287#0" expanded="true" />
+            <element signature="e#716#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/views/userDocPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/Documentation/GettingStarted.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/UserDocPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#238#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/BreadCrumbsUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
