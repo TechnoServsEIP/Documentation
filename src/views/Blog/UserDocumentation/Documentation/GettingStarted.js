@@ -93,30 +93,7 @@ export default function GettingStarted() {
         'Une fois sur le menu principale cliquez sur le serveur que vous souhaitez modifier vous aurez alors une page similaire qui devrait s’afficher:\n' +
         '![image alt text](/UD/servInfo.png)\n' +
         'Appuyez alors sur “delete” et confirmez bien que vous voulez le supprimer (attention toute suppression est définitive).\n' +
-        '\n' +
-        '# FAQ\n' +
-        '### Je n’arrive pas à avoir accès à mon compte.\n' +
-        'Vérifiez tout d\'abord que vous avez bien un compte chez nous, dans le cas contraire référez vous à la section “création du compte”.\n' +
-        'Que vous avez bien votre mot de passe et adresse email utilisé lors de la création de votre compte.\n' +
-        '\n' +
-        '### Je n’ai pas reçu le mail de confirmation.\n' +
-        'Les délais sont d’un jour ouvré, attendez un peu dans le cas contraire faites nous un ticket sur zendesk.\n' +
-        '\n' +
-        '### J’ai oublié mon mot de passe.\n' +
-        'Étant en beta l’option n’est pas encore disponible, veuillez alors nous faire un ticket sous zendesk en précisant “mot de passe oublié” dans votre demande.\n' +
-        '\n' +
-        '### Où puis-je signaler un bug ?\n' +
-        'Pour notre BÊTA Test, nous avons créé un discord auquel vous pouvez signaler tout problème.\n' +
-        'Dans le channel bug-report, vous pouvez nous envoyer un screenshot avec un commentaire.\n' +
-        '\n' +
-        '### Certains onglets ne fonctionnent pas dans le dashboard.\n' +
-        'Étant en BÊTA  certaines options ne sont pas encore disponibles. Nous faisons de notre mieux pour développer toute les fonctionnalités.\n' +
-        '\n' +
-        '### Lorsque je suis sur téléphone, le site ne fonctionne pas.\n' +
-        'Notre dashboard n’est pas responsive. Nous essayons de développer une application pour bientôt.\n' +
-        '\n' +
-        '### Les ressources utilisées du serveur ne semblent pas être correctes.\n' +
-        'Étant en BÊTA, cette option est prévue très prochainement.';
+        '\n'
     return(<div>
             <ReactMarkdown source={markdown} />
         </div>

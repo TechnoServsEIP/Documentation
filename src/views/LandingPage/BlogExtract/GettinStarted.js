@@ -52,8 +52,7 @@ export default function RecipeReviewCard() {
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                     Ce document a pour but d’établir un guide de l’utilisateur qui permettrait à toute personne d’utiliser notre solution.
-                    TechnoServs est une solution de hosting de serveurs de jeux vidéos dans le cloud, avec des offres à la demande pour chacun, en simplifiant chaques étapes du processus.
-                    Afin de mieux comprendre les fonctionnalités mises en place, nous avons créé un schéma fonctionnel simple. (voir Schéma fonctionnel)
+                    TechnoServs est une solution de hosting de serveurs de jeux vidéos...
                 </Typography>
             </CardContent>
             <CardActions disableSpacing>
