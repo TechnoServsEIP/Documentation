@@ -9,6 +9,7 @@ import "assets/scss/material-kit-react.scss?v=1.9.0";
 import LandingPage from "views/LandingPage/LandingPage.js";
 import TechnicalDocPage from "views/Blog/TechnicalDocumentation/TechnicalDocPage.js"
 import UserDocPage from "views/Blog/UserDocumentation/UserDocPage.js"
+import FAQ from "views/Blog/FAQ/FAQ.js"
 
 var hist = createBrowserHistory();
 
@@ -16,7 +17,8 @@ ReactDOM.render(
   <Router history={hist}>
     <Switch>
       <Route path="/documentation/technical" component={TechnicalDocPage}/>
-      <Route path="/documentation/user" component={UserDocPage}/>
+        <Route path="/documentation/user" component={UserDocPage}/>
+        <Route path="/faq" component={FAQ}/>
       <Route path="/" component={LandingPage} />
     </Switch>
   </Router>,

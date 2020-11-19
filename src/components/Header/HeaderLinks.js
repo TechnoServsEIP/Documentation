@@ -40,7 +40,7 @@ export default function HeaderLinks(props) {
             </Link>
         </ListItem>
         <ListItem className={classes.listItem}>
-            <Link to={"/"} color="transparent"
+            <Link to={"/faq"} color="transparent"
                   className={classes.navLink}>
                 FAQ
             </Link>

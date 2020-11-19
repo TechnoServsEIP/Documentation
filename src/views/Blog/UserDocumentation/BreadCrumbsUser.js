@@ -77,7 +77,6 @@ export default function BreadcrumbsUser() {
                         return (
                             <Breadcrumbs aria-label="breadcrumb">
                                 <LinkRouter color="inherit" to="/">
-                                    Home
                                 </LinkRouter>
                                 {pathnames.map((value, index) => {
                                     const last = index === pathnames.length - 1;

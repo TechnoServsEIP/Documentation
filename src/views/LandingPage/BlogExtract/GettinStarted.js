@@ -6,6 +6,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button'
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -50,12 +51,15 @@ export default function RecipeReviewCard() {
                    Getting Started
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                    This impressive paella is a perfect party dish and a fun meal to cook together with your
-                    guests. Add 1 cup of frozen peas along with the mussels, if you like.
+                    Ce document a pour but d’établir un guide de l’utilisateur qui permettrait à toute personne d’utiliser notre solution.
+                    TechnoServs est une solution de hosting de serveurs de jeux vidéos dans le cloud, avec des offres à la demande pour chacun, en simplifiant chaques étapes du processus.
+                    Afin de mieux comprendre les fonctionnalités mises en place, nous avons créé un schéma fonctionnel simple. (voir Schéma fonctionnel)
                 </Typography>
             </CardContent>
             <CardActions disableSpacing>
+                <Link to={'/documentation/user'}>
                 <Button size="small" color={"secondary"} variant={"outlined"}>Learn More</Button>
+                </Link>
                 <Typography className={classes.readTime} color="textSecondary" gutterBottom>
                     5min Read
                 </Typography>
