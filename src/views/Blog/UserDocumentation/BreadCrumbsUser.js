@@ -16,10 +16,9 @@ import { Route, MemoryRouter } from 'react-router';
 import { Link as RouterLink } from 'react-router-dom';
 
 const breadcrumbNameMap = {
-    '/inbox': 'Inbox',
-    '/inbox/important': 'Important',
-    '/trash': 'Trash',
-    '/spam': 'Spam',
+    '/gettingStarted': 'Getting Started',
+    '/createServer': 'Create A Server',
+    '/createAnAccount': 'Create An Account',
     '/drafts': 'Drafts',
 };
 
@@ -69,7 +68,7 @@ export default function BreadcrumbsUser() {
     };
 
     return (
-            <MemoryRouter initialEntries={['/inbox']} initialIndex={0}>
+            <MemoryRouter initialEntries={['/gettingStarted']} initialIndex={0}>
             <div className={classes.root}>
                 <Route>
                     {({ location }) => {
@@ -100,14 +99,9 @@ export default function BreadcrumbsUser() {
                 </Route>
                 <nav className={classes.lists} aria-label="mailbox folders">
                     <List>
-                        <ListItemLink to="/inbox" open={open} onClick={handleClick} />
-                        <Collapse component="li" in={open} timeout="auto" unmountOnExit>
-                            <List disablePadding>
-                                <ListItemLink to="/inbox/important" className={classes.nested} />
-                            </List>
-                        </Collapse>
-                        <ListItemLink to="/trash" />
-                        <ListItemLink to="/spam" />
+                        <ListItemLink to="/gettingStarted"/>
+                        <ListItemLink to="/createServer" />
+                        <ListItemLink to="/createAnAccount" />
                     </List>
                 </nav>
             </div>

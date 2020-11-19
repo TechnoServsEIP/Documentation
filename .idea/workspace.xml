@@ -2,127 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="919ed197-e733-4950-a161-be359dfed8ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/archetypes/default.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/techDoc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/userDoc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/TD/archi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/TD/azure.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/TD/diagramClass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/TD/github1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/TD/github2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/TD/hangout.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/TD/schema.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/TD/slack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/TD/trello.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/UD/SchémaFonctionnel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/UD/create1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/UD/create2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/UD/create3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/UD/create4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/UD/env.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/UD/instances.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/UD/login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/UD/mail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/UD/register.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/UD/servInfo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ts-logo-full.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ts-logo-small.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/.eslintrc.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/COMMUNITY-FEATURES.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/USERS.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/archive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/buttons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/code.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/logo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/pagination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/post.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/prism.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/terms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/css/variables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-BoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-BoldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-MediumItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-MediumItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/fonts/Inter-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/js/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/js/prism.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/assets/js/theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/exampleSite/config.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/exampleSite/content/about.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/exampleSite/content/archive.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/exampleSite/content/post/hello.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/exampleSite/content/showcase.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/exampleSite/static/img/hello.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/images/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/images/tn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/_default/baseof.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/_default/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/_default/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/_default/rss.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/_default/single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/_default/terms.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/archive/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/analytics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/comments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/extended_footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/extended_head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/greater-icon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/lastmod.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/logo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/pagination.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/prepended_head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/partials/theme-icon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/shortcodes/code.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/shortcodes/figure.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/shortcodes/image.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/layouts/shortcodes/imgproc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-BoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-BoldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-MediumItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-MediumItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/fonts/Inter-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/prism.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/assets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/static/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/theme.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hello-friend/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Blog/UserDocumentation/BreadCrumbsUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Blog/UserDocumentation/BreadCrumbsUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,34 +23,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/UserDocPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-280">
+            <state relative-caret-position="15">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#238#299#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/Documentation/GettingStarted.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/BreadCrumbsUser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/views/userDocPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="-48">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <element signature="e#39#65#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,16 +61,16 @@
         <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPage.js" />
         <option value="$PROJECT_DIR$/src/views/LandingPage/Sections/BlogExtractSection.js" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/cardHeaderStyle.js" />
-        <option value="$PROJECT_DIR$/src/views/LandingPage/LandingPage.js" />
-        <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/headerLinksStyle.js" />
         <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/TechnicalDocumentationPage.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/TechnicalDocPage.js" />
         <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/BreadCrumbsTechnical.js" />
-        <option value="$PROJECT_DIR$/src/components/Header/HeaderLinks.js" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/userDocPage.js" />
         <option value="$PROJECT_DIR$/src/views/Blog/UserDocumentation/UserDocPage.js" />
+        <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
+        <option value="$PROJECT_DIR$/src/components/Header/HeaderLinks.js" />
+        <option value="$PROJECT_DIR$/src/views/LandingPage/LandingPage.js" />
         <option value="$PROJECT_DIR$/src/views/Blog/UserDocumentation/BreadCrumbsUser.js" />
       </list>
     </option>
@@ -265,15 +140,9 @@
               <item name="Documentation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="LandingPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Documentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="UserDocumentation" type="462c0819:PsiDirectoryNode" />
               <item name="Documentation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="LandingPage" type="462c0819:PsiDirectoryNode" />
-              <item name="Sections" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,6 +153,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/Blog/UserDocumentation" />
@@ -323,16 +193,15 @@
       <updated>1600801492129</updated>
       <workItem from="1600801493644" duration="4853000" />
       <workItem from="1605740363419" duration="17400000" />
-      <workItem from="1605802939055" duration="349000" />
+      <workItem from="1605802939055" duration="2686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22602000" />
+    <option name="totallyTimeSpent" value="24939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -451,16 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-          <folding>
-            <element signature="e#227#281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/TechnicalDocPage.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -471,18 +330,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#249#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderLinks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#283#337#0" expanded="true" />
-            <element signature="e#582#638#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -524,10 +371,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#227#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderLinks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#283#337#0" expanded="true" />
+            <element signature="e#582#638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/LandingPage/LandingPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
           <folding>
             <element signature="e#238#287#0" expanded="true" />
             <element signature="e#716#768#0" expanded="true" />
@@ -542,25 +411,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/Documentation/GettingStarted.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/UserDocPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
+        <state relative-caret-position="15">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#238#299#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/BreadCrumbsUser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="-48">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#39#65#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/Documentation/GettingStarted.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

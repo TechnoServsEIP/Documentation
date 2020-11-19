@@ -66,7 +66,6 @@ export default function LandingPage(props) {
           <WorkSection />
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

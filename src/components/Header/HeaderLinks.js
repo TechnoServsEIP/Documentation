@@ -28,34 +28,22 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <a
-            href=""
-            color="transparent"
-            target="_blank"
-            className={classes.navLink}
-        >
-            User Documentation
-        </a>
+          <Link to={"/documentation/user"} color="transparent"
+                className={classes.navLink}>
+              User Documentation
+          </Link>
     </ListItem>
         <ListItem className={classes.listItem}>
-            <a
-                href=""
-                color="transparent"
-                target="_blank"
-                className={classes.navLink}
-            >
+            <Link to={"/documentation/technical"} color="transparent"
+                  className={classes.navLink}>
                 Technical Documentation
-            </a>
+            </Link>
         </ListItem>
         <ListItem className={classes.listItem}>
-            <a
-                href=""
-                color="transparent"
-                target="_blank"
-                className={classes.navLink}
-            >
+            <Link to={"/"} color="transparent"
+                  className={classes.navLink}>
                 FAQ
-            </a>
+            </Link>
         </ListItem>
     </List>
   );
