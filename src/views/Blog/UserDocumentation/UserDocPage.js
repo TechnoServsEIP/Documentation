@@ -16,6 +16,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
 import BreadcrumbsUser from "./BreadCrumbsUser.js"
+import GettingStarted from "./Documentation/GettingStarted.js"
 
 const useStyles = makeStyles(styles);
 
@@ -46,9 +47,7 @@ export default function LandingPage(props) {
                         <Divider orientation="vertical" flexItem />
                         <GridItem xs={12} sm={12} md={9}>
                             <h1>User Documentation</h1>
-                        </GridItem>
-                        <GridItem>
-
+                            <GettingStarted/>
                         </GridItem>
                     </GridContainer>
                 </div>
