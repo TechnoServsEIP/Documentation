@@ -19,11 +19,11 @@ const useStyles = makeStyles(styles);
 const markdown =
         '## Prendre en main TechnoServs\n' +
         '\n' +
-        '### TechnoServers est une solution d\'hébergement en ligne de serveur de jeux, vous permetant facilement de jouer à vos jeux favoris.' +
+        '#### TechnoServers est une solution d\'hébergement en ligne de serveur de jeux, vous permetant facilement de jouer à vos jeux favoris.' +
         ' Le tout sans vous souciez d\'aucune installation.\n' +
-        '### Pour découvrir notre solution vous pouvez vous rendre dès à présent sur' +
+        '#### Pour découvrir notre solution vous pouvez vous rendre dès à présent sur' +
         '[TechnoServs](https://app.technoservs.co/#/) .\n' +
-        '### Si néanmoins tu as besoin d\'aide n\'hésite pas à voir nos différentes sections.';
+        '##### Si néanmoins tu as besoin d\'aide n\'hésite pas à voir nos différentes sections.';
 
 
 export default function GettingStartedUser(props) {

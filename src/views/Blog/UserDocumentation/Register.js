@@ -19,11 +19,15 @@ const useStyles = makeStyles(styles);
 
 export default function Register(props) {
     const classes = useStyles();
-    const markdownIntro = '### Dans cette section nous allons voir comment créer un compte TechnoServs.\n' +
-    '#### Tout d\'abord vous devez vous rendre sur [TechnoServs](https://app.technoservs.co/#/)\n' +
-    '#### Suite à quoi vous devrez avoir une page similaire (voir ci-dessous).';
+    const markdownIntro = '#### Dans cette section nous allons voir comment créer un compte TechnoServs.\n' +
+    '##### Tout d\'abord vous devez vous rendre sur [TechnoServs](https://app.technoservs.co/#/)\n' +
+    '##### Suite à quoi vous devrez avoir une page similaire (voir ci-dessous).';
     const markdownContent = '#### Comme nous le constatons dans l\'exemple ci-dessus, il nous suffit de rentrer notre adresse email' +
-        ' dans les deux premiers champs. \n';
+        ' dans les deux premiers champs. \n' +
+        '##### Ainsi que votre mot de passe dans les deux derniers champs. ' +
+        'et surtout n\'oubliez pas d\'accepter nos conditions d\'utilisations.\n'+
+        '###### **Attention vos adresses mails et mots de passe doivent être identiques.**\n ' +
+        '**Vous devez également avoir un majuscule et minuscule, un charactère spécial, un chiffre et un minimum de 8 charactères.**\n';
     const markdownExplication = '#### Vous pouvez alors cliquer sur le boutton vert "Confirmation", suite à quoi vous serez redirigé vers la page d\'Identification de TechnoServs.';
     const { ...rest } = props;
     return (

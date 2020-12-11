@@ -16,4 +16,14 @@ export const SidebarData = [
       path: '/documentation/login',
         cName: 'nav-text'
     },
+    {
+        title: 'Créer un serveur',
+        path: '/documentation/create-server',
+        cName: 'nav-text'
+    },
+    {
+        title: 'Se connecter au serveur',
+        path: '/documentation/connect-to-server',
+        cName: 'nav-text'
+    },
 ];

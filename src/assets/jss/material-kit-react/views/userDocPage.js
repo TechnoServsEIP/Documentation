@@ -53,6 +53,11 @@ const landingPageStyle = {
         },
     gif2: {
         marginLeft: '25%'
+    },
+    gif3: {
+        height: "680px",
+        width: "1080px",
+        marginLeft: '5%'
     }
 };
 

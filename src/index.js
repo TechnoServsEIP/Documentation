@@ -20,6 +20,8 @@ import FAQ from "views/Blog/FAQ/FAQ.js";
 import GettingStartedUser from "views/Blog/UserDocumentation/GettingStartedUser.js";
 import Register from "views/Blog/UserDocumentation/Register.js";
 import Login from "views/Blog/UserDocumentation/Login.js";
+import CreateServer from "views/Blog/UserDocumentation/CreateServer.js"
+import ConnectToServer from "views/Blog/UserDocumentation/ConnectToServer.js"
 
 var hist = createBrowserHistory();
 
@@ -38,6 +40,8 @@ ReactDOM.render(
         <Route path="/documentation/getting-started-user" component={GettingStartedUser}/>
         <Route path="/documentation/register" component={Register}/>
         <Route path="/documentation/login" component={Login}/>
+        <Route path="/documentation/create-server" component={CreateServer}/>
+        <Route path="/documentation/connect-to-server" component={ConnectToServer}/>
         <Route path="/faq" component={FAQ}/>
       <Route path="/" component={LandingPage} />
     </Switch>

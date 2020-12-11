@@ -1,4 +1,5 @@
 import React from "react";
+import ReactMarkdown from 'react-markdown'
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
@@ -9,15 +10,14 @@ import GridItem from "components/Grid/GridItem.js";
 import Header from "components/Header/Header.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 
-import styles from "assets/jss/material-kit-react/views/RegisterUser.js";
+import styles from "assets/jss/material-kit-react/views/userDocPage.js";
 
 // Sections for this page
-import Sidebar from "components/Sidebar/User/Sidebar";
-import ReactMarkdown from "react-markdown";
 
+import Sidebar from "components/Sidebar/User/Sidebar";
 const useStyles = makeStyles(styles);
 
-export default function Login(props) {
+export default function ConnectToServer(props) {
     const classes = useStyles();
     const { ...rest } = props;
     return (
@@ -43,15 +43,18 @@ export default function Login(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Utilisateur</h1>
-                        <br/>
-                        <h2>Service d'Authentification au compte <b>TechnoServs</b></h2>
-                        <h4>Si vous souhaitez vous connecter à votre compte TechnoServs, munissez-vous de votre adresse mail et de votre mot de passe que vous aviez utilisé lors de la création de votre compte chez TechnoServs.
-                            Si vous n’en avez pas merci de vous référer à la section précédente <a href={"/documentation/register"}><b>création du compte</b></a>.
+                        <h2>Se connecter à son serveur de jeux personnel</h2>
+                        <h4>
+                            Pour se connecter à son serveur de jeu vous devez avoir un serveur disponnible sur <b>TechnoServs</b>, si ce n'est pas le cas vous pouvez vous réferez au <a href={"/document/create-server"}>document antérieur</a>.
                         </h4>
                         <br/>
-                        <img src={"https://i.imgur.com/h9v9scd.gif"} className={classes.gif}/>
+                        <img src={"https://i.imgur.com/bQgZtA4.gif"} className={classes.gif3}/>
                         <br/>
-                        <h4>Vous n’avez alors plus qu’à entrer dans le premier champ votre adresse mail, et dans le deuxième votre mot de passe. Veuillez bien faire attention toutefois que ce soient les informations que vous avez entré précédemment lors de la création de votre compte.(Comme on peut le voir sur l'exmple plus haut)</h4>
+                        <h4>
+                            Veuillez bien avoir <b>Minecraft</b> ouvert en même temps.<br/>
+                            Allez dans la partie <b>Multijoueur</b> et <b>Ajouter un serveur</b><br/>
+                            Une fois ici copiez l'<b>ip du serveur</b> suivi de <b>:</b> et de votre <b>Port</b> (Comme nous montre l'exemple si dessus).
+                        </h4>
                         <div>
                         </div>
                     </GridItem>
