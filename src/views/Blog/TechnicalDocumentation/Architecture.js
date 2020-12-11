@@ -17,13 +17,13 @@ import styles from "assets/jss/material-kit-react/views/userDocPage.js";
 import Sidebar from "components/Sidebar/Technical/Sidebar";
 const useStyles = makeStyles(styles);
 const markdown =
-    'TechnoServs est hébergé sur un serveur Azure (Ubuntu).\n' +
-    'Il host un serveur en Go connecté à une base de données MongoDB et PostgreSQL.\n' +
+    '#### TechnoServs est hébergé sur un serveur **Azure** (Ubuntu).\n' +
+    '#### Il host un serveur en **Go** connecté à une base de données **MongoDB** et **PostgreSQL**.\n' +
     '\n' +
-    'MongoDB est utilisé pour stocker les offres des jeux proposés associés aux caractéristiques du serveur de jeu.\n' +
-    'PostgreSQL stocke les données des utilisateurs ainsi que les informations des serveurs de jeux.\n' +
+    '#### **MongoDB** est utilisé pour stocker les offres des jeux proposés associés aux caractéristiques du serveur de jeu.\n' +
+    '#### **PostgreSQL** stocke les données des utilisateurs ainsi que les informations des serveurs de jeux.\n' +
     '\n' +
-    'L’API utilisé par le site web de TechnoServs permet de gérer les offres, serveurs de jeux et utilisateurs.\n';
+    '#### L’API utilisé par le site web de **TechnoServs** permet de gérer les offres, serveurs de jeux et utilisateurs.\n';
 
 
 export default function Architecture(props) {
@@ -52,7 +52,11 @@ export default function Architecture(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Technique</h1>
-                        <img src="https://i.imgur.com/RAXMGMx.png" className={classes.img}/>
+                        <br/>
+                        <h2>Architecture</h2>
+                        <br/>
+                        <img src="https://i.imgur.com/E2HeGHs.png" className={classes.img2}/>
+                        <br/>
                         <ReactMarkdown source={markdown}/>
                         <div>
                         </div>

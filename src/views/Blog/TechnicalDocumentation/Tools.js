@@ -16,34 +16,6 @@ import styles from "assets/jss/material-kit-react/views/userDocPage.js";
 
 import Sidebar from "components/Sidebar/Technical/Sidebar";
 const useStyles = makeStyles(styles);
-const markdown =
-    'Cette section à pour but d’établir un guide du développeur qui permettrait à toute personne rejoignant' +
-    'l\'équipe de contribuer au projet en comprenant son état, sa structure, et la façon de contribuer, sans ' +
-    'avoir à nous solliciter pour obtenir les informations nécessaires.\n' +
-
-    'TechnoServs est une solution de hosting de serveurs de jeux vidéos dans le cloud, avec des offres à la demande ' +
-    'pour chacun, en simplifiant chaques étapes du processus.\n' +
-
-    'Notre architecture est basé sur un backend en language Go et un frontend en VueJS avec le framework Quasar. (voir Architecture)' +
-
-    'Nous utilisons GitHub comme outils de versioning et organisons nos tâches via Trello. Pour communiquer, nous utilisons Slack et Hangout. ' +
-    '(voir Outils d’organisation et de communication)' +
-
-    'Notre serveur utilise l’API docker afin de gérer les containers, qui eux héberge un serveur de jeu. Nous avons mis à disposition une API' +
-    'afin de permettre à l’application web de gérer les serveurs de jeux. (voir Présentation des technologies)\n' +
-
-    'La documentation de l’API est généré par Postman, elle reprend tous les endpoints permettant de gérer les offres, les utilisateurs et les' +
-    'serveurs de jeux. (voir API et interfaces)\n' +
-
-    'Le linter officiel de golang est utilisé pour le backend. Le front utilise Eslint. (voir Norme du code)\n' +
-
-    'Le backend utilise la librairie standard de test de golang et les github action afin d\'automatiser les tests unitaires.' +
-    ' Côté frontend le framework Jest a été intégré. (voir Tests)\n'+
-
-    'Le déploiement de la solution est automatisé via github action.\n' +
-
-    'Le dashboard est déployé sur Netlify. Le site se trouve sur le lien suivant: technoservs.ichbinkour.eu. (voir Déploiement de la solution)\n';
-
 
 export default function Tools(props) {
     const classes = useStyles();
@@ -71,10 +43,40 @@ export default function Tools(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Technique</h1>
-                        <img src="https://i.imgur.com/RAXMGMx.png" className={classes.img}/>
-                        <ReactMarkdown source={markdown}/>
-                        <div>
-                        </div>
+                        <br/>
+                        <h2>Outils d'organisation et de communication</h2>
+                        <br/>
+                        <h3><b>Github</b></h3>
+                        <h4>Les outils d’organisation de TechnoServs sont la feature Issue de <b>GitHub</b>. Lorsque nous souhaitons implémenter une nouvelle feature, nous créons une Issue comme ci-dessous.
+                        </h4>
+                        <br/>
+                        <img src="https://i.imgur.com/9AJDDMF.png" className={classes.img4}/>
+                        <br/>
+                        <h4>Dans cet exemple, nous mettons une description qui résume la tâche en une phrase, ainsi que la charge estimée, ainsi que la “<b>Definition of Done</b>” qui correspond à ceux que doit fonctionner une fois que la tâche est terminée.
+                        </h4>
+                        <br/>
+                        <img src={"https://i.imgur.com/ZKUArm0.png"} className={classes.img3}/>
+                        <br/>
+                        <h4>Une fois l’issue créée, elle se retrouve dans la colonne “<b>To Do</b>” dans notre tableau des issues. Ceci nous permet de voir à quel stade d’avancement nous nous trouvons pour le Sprint.
+                        </h4>
+                        <h3><b>Trello</b></h3>
+                        <h4>Pendant chaque inter-sprint, nous mettons chaques features et idées dans un tableau sur <b>Trello</b>.</h4>
+                        <br/>
+                        <img src={"https://i.imgur.com/4cREnyu.png"} className={classes.img3}/>
+                        <br/>
+                        <h3><b>Slack</b></h3>
+                        <h4>Pour avoir une bonne communication et un bon suivi de chaque développeur, nous utilisons <b>Slack</b> avec un intégration <b>GitHub</b>, ce qui nous permet ainsi de voir les commits de chacun pour chaque projet.
+                        </h4>
+                        <img src={"https://i.imgur.com/dnO0LMJ.png"} className={classes.img5}/>
+                        <br/>
+                        <h4>Pour prendre des décisions, nous devons faire des appels, qui peuvent être long. Pour cela nous utilisons <b>Google Hangout</b> directement relié à Slack, ce qui nous permet de faire des partages d’écrans, et de partager nos opinions.</h4>
+                        <br/>
+                        <img src={"https://i.imgur.com/GEwCd7e.png"} className={classes.img6}/>
+                        <br/>
+                        <h3><b>Google Drive</b></h3>
+                        <h4>Pour le stockage de nos documents, nous utilisons <b>Google Drive</b>, qui nous fournit une interface graphique simple à utiliser.
+                        </h4>
+
                     </GridItem>
                 </GridContainer>
             </div>

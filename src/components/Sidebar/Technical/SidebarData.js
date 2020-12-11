@@ -6,7 +6,12 @@ import * as IoIcons from 'react-icons/io';
 export const SidebarData = [
     {
         title: 'Présentation',
-        path: '/documentation/getting-started-user',
+        path: '/documentation/getting-started-technical',
+        cName: 'nav-text'
+    },
+    {
+        title: 'Architecture',
+        path: '/documentation/architecture',
         cName: 'nav-text'
     },
     {

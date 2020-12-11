@@ -22,6 +22,35 @@ const landingPageStyle = {
         width: "350px",
         marginLeft: '25%'
     },
+    img2: {
+        height: "350px",
+        width: "500px",
+        marginLeft: '25%'
+    },
+    img3: {
+        height: "550px",
+        width: "950px",
+        marginLeft: '10%'
+    },
+    img4: {
+        height: "400px",
+        width: "950px",
+        marginLeft: '10%'
+    },
+    img5: {
+        height: "200px",
+        width: "500px",
+        marginLeft: '25%'
+    },
+    img6: {
+        height: "150px",
+        width: "900px",
+        marginLeft: '15%'
+    },
+    imgboth: {
+        height: "150px",
+        width: "200px",
+        },
     gif2: {
         marginLeft: '25%'
     }

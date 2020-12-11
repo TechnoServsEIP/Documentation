@@ -17,16 +17,16 @@ import styles from "assets/jss/material-kit-react/views/userDocPage.js";
 import Sidebar from "components/Sidebar/Technical/Sidebar";
 const useStyles = makeStyles(styles);
 const markdown =
-    'L’API est basé sur une architecture Model, Vue, Controller (MVC).\n' +
-    'Elle est composée de quatre principaux modules : \n' +
-    'App\n' +
-    'Utilisateurs (lié au modèle Account)\n' +
-    'Offres (lié au modèle Offers)\n' +
-    'Serveur de jeu (lié au modèle DockerStore)\n' +
+    '#### L’API est basé sur une architecture **Model**, **Vue**, **Controller (MVC)**.\n' +
+    '#### Elle est composée de **quatre principaux modules** : \n' +
+    '##### *App\n' +
+    '##### *Utilisateurs (lié au modèle Account)\n' +
+    '##### *Offres (lié au modèle Offers)\n' +
+    '##### *Serveur de jeu (lié au modèle DockerStore)\n' +
     '\n' +
-    'Le module App contient toutes les fonctionnalités non basées sur un modèle ou un controller tel que les fonction d’initialisation de bases de donnée, la gestion des CORS.\n' +
+    '#### Le module App contient toutes les fonctionnalités non basées sur un modèle ou un controller tel que les fonction d’initialisation de bases de donnée, la gestion des CORS.\n' +
     '\n' +
-    'Le module Offres est étroitement lié au serveur de jeu puisque les caractéristiques de celui-ci dépend de l’offre associée.\n';
+    '#### Le module Offres est étroitement lié au serveur de jeu puisque les caractéristiques de celui-ci dépend de l’offre associée.\n';
 
 
 export default function ComponentAndSolution(props) {
@@ -55,7 +55,12 @@ export default function ComponentAndSolution(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Technique</h1>
-                        <img src="https://i.imgur.com/RAXMGMx.png" className={classes.img}/>
+                        <br/>
+                        <h2>Composants et modeules de la solution</h2>
+                        <br/>
+                        <h3> Diagrameme de classes Backend</h3>
+                        <br/>
+                        <img src="https://i.imgur.com/5NeNZtJ.png" className={classes.img3}/>
                         <ReactMarkdown source={markdown}/>
                         <div>
                         </div>
