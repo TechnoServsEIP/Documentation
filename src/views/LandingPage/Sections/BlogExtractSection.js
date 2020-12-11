@@ -14,6 +14,8 @@ import { Link } from "react-router-dom";
 import GettingStartedUserCard from "../BlogExtract/GettinStartedUser.js"
 import RegisterCard from '../BlogExtract/RegisterUser.js'
 import GettingStartedTechCard from '../BlogExtract/GettingStartedTech.js'
+import CreateServer from '../BlogExtract/CreateServer.js'
+import UseServer from '../BlogExtract/UseServer.js'
 
 const useStyles = makeStyles((theme) => ({
     btn: {
@@ -70,10 +72,10 @@ export default function BlogExtractSection() {
                         <GettingStartedTechCard/>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4} className={classes.item}>
-
+                        <CreateServer/>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4} className={classes.item}>
-
+                        <UseServer/>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4} className={classes.item}>
 

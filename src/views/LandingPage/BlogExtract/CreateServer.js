@@ -34,32 +34,32 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function RegisterUserCard() {
+export default function GettingStartedUserCard() {
     const classes = useStyles();
 
     return (
         <Card className={classes.root}>
             <CardMedia
                 className={classes.media}
-                image="https://static.ghost.org/v3.0.0/images/admin-settings.png"
+                image="https://i.imgur.com/viKsEdc.png"
             />
             <CardContent >
                 <Typography className={classes.title} color="textSecondary" gutterBottom>
                     Documentation Utilisateur
                 </Typography>
                 <Typography variant="h5" component="h2">
-                    Se créer un compte
+                    Créer un serveur
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                    Ce document a pour but d’éxpliquer comment se créer un copmpte sur notre platforme.
+                    Ce document a pour but d’établir un guide afin de créer son propre serveur de jeux.
                 </Typography>
             </CardContent>
             <CardActions disableSpacing>
-                <Link to={'/documentation/register'}>
+                <Link to={'/documentation/create-server'}>
                     <Button size="small" color={"secondary"} variant={"outlined"}>En savoir plus</Button>
                 </Link>
                 <Typography className={classes.readTime} color="textSecondary" gutterBottom>
-                    5min Read
+                    6min Read
                 </Typography>
             </CardActions>
         </Card>

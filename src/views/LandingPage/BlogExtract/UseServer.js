@@ -34,32 +34,32 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function RegisterUserCard() {
+export default function GettingStartedUserCard() {
     const classes = useStyles();
 
     return (
         <Card className={classes.root}>
             <CardMedia
                 className={classes.media}
-                image="https://static.ghost.org/v3.0.0/images/admin-settings.png"
+                image="https://thumbor.sd-cdn.fr/Z88vGH2Y4hYXPXTEJw4X3fzC6ZQ=/fit-in/1600x1000/cdn.sd-cdn.fr/wp-content/uploads/2019/09/minecraft-facebook.jpg"
             />
             <CardContent >
                 <Typography className={classes.title} color="textSecondary" gutterBottom>
                     Documentation Utilisateur
                 </Typography>
                 <Typography variant="h5" component="h2">
-                    Se créer un compte
+                    Utiliser son serveur
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                    Ce document a pour but d’éxpliquer comment se créer un copmpte sur notre platforme.
+                    Ce document a pour but d’établir un guide afin de pouvoir se connecter à son serveur de jeux.
                 </Typography>
             </CardContent>
             <CardActions disableSpacing>
-                <Link to={'/documentation/register'}>
+                <Link to={'/documentation/connect-to-server'}>
                     <Button size="small" color={"secondary"} variant={"outlined"}>En savoir plus</Button>
                 </Link>
                 <Typography className={classes.readTime} color="textSecondary" gutterBottom>
-                    5min Read
+                    6min Read
                 </Typography>
             </CardActions>
         </Card>
