@@ -70,6 +70,7 @@ export default function Deployment(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Technique</h1>
+                        <div className={classes.content}>
                         <br/>
                         <h2>Déploiement de la solution</h2>
                         <h3><b>Backend</b></h3>
@@ -81,6 +82,7 @@ export default function Deployment(props) {
                         <img src={"https://i.imgur.com/jEtwuiH.png"} className={classes.img2}/>
                         <ReactMarkdown source={markdown2}/>
                         <div>
+                        </div>
                         </div>
                     </GridItem>
                 </GridContainer>

@@ -43,6 +43,7 @@ export default function ConnectToServer(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Utilisateur</h1>
+                        <div className={classes.content}>
                         <h2>Se connecter à son serveur de jeux personnel</h2>
                         <h4>
                             Pour se connecter à son serveur de jeu vous devez avoir un serveur disponnible sur <b>TechnoServs</b>, si ce n'est pas le cas vous pouvez vous réferez au <a href={"/document/create-server"}>document antérieur</a>.
@@ -55,6 +56,7 @@ export default function ConnectToServer(props) {
                             Allez dans la partie <b>Multijoueur</b> et <b>Ajouter un serveur</b><br/>
                             Une fois ici copiez l'<b>ip du serveur</b> suivi de <b>:</b> et de votre <b>Port</b> (Comme nous montre l'exemple si dessus).
                         </h4>
+                        </div>
                         <div>
                         </div>
                     </GridItem>

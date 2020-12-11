@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="919ed197-e733-4950-a161-be359dfed8ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/userDocPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/userDocPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/User/SidebarData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/User/SidebarData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/API.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Architecture.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Architecture.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/ComponentsAndSolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/ComponentsAndSolution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Deployment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Deployment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/GettingStartedTech.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/GettingStartedTech.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Norms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Norms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Technologies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Technologies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Blog/UserDocumentation/ConnectToServer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Blog/UserDocumentation/ConnectToServer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Blog/UserDocumentation/CreateServer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Blog/UserDocumentation/CreateServer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Blog/UserDocumentation/GettingStartedUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Blog/UserDocumentation/GettingStartedUser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Blog/UserDocumentation/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Blog/UserDocumentation/Login.js" afterDir="false" />
@@ -22,10 +30,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/ConnectToServer.js">
+        <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/GettingStartedUser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="50" column="92" selection-start-line="50" selection-start-column="92" selection-end-line="50" selection-end-column="92" />
+            <state relative-caret-position="366">
+              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#168#229#0" expanded="true" />
@@ -35,10 +43,88 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/CreateServer.js">
+        <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/API.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="51" column="92" selection-start-line="51" selection-start-column="92" selection-end-line="51" selection-end-column="92" />
+            <state relative-caret-position="358">
+              <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#168#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Architecture.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#168#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/ComponentsAndSolution.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#168#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Deployment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#168#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/GettingStartedTech.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#168#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Norms.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#168#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#168#229#0" expanded="true" />
@@ -48,10 +134,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/views/userDocPage.js">
+        <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Tools.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+            <state relative-caret-position="323">
+              <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#168#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Technologies.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#168#229#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,23 +215,23 @@
         <option value="$PROJECT_DIR$/src/views/LandingPage/Sections/WorkSection.js" />
         <option value="$PROJECT_DIR$/src/views/LandingPage/LandingPage.js" />
         <option value="$PROJECT_DIR$/src/components/Sidebar/Technical/SidebarData.js" />
-        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Architecture.js" />
-        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/GettingStartedTech.js" />
-        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/ComponentsAndSolution.js" />
-        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Technologies.js" />
-        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/API.js" />
-        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Norms.js" />
-        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Test.js" />
-        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Deployment.js" />
-        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Tools.js" />
-        <option value="$PROJECT_DIR$/src/views/Blog/UserDocumentation/Register.js" />
-        <option value="$PROJECT_DIR$/src/views/Blog/UserDocumentation/GettingStartedUser.js" />
-        <option value="$PROJECT_DIR$/src/views/Blog/UserDocumentation/Login.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/Sidebar/User/SidebarData.js" />
-        <option value="$PROJECT_DIR$/src/views/Blog/UserDocumentation/CreateServer.js" />
-        <option value="$PROJECT_DIR$/src/views/Blog/UserDocumentation/ConnectToServer.js" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/userDocPage.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/UserDocumentation/ConnectToServer.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/UserDocumentation/CreateServer.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/UserDocumentation/Login.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/UserDocumentation/Register.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/UserDocumentation/GettingStartedUser.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/API.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Architecture.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/ComponentsAndSolution.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Deployment.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/GettingStartedTech.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Norms.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Technologies.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Test.js" />
+        <option value="$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Tools.js" />
       </list>
     </option>
   </component>
@@ -291,12 +394,12 @@
       <workItem from="1605802939055" duration="3264000" />
       <workItem from="1607612663286" duration="4685000" />
       <workItem from="1607638681397" duration="15093000" />
-      <workItem from="1607654933920" duration="18377000" />
+      <workItem from="1607654933920" duration="18926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69516000" />
+    <option name="totallyTimeSpent" value="70065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -550,127 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/GettingStartedTech.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="26" column="131" lean-forward="true" selection-start-line="26" selection-start-column="131" selection-end-line="26" selection-end-column="131" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#168#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/ComponentsAndSolution.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-367">
-          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#168#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Norms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="27" column="101" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#168#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#168#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Architecture.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#168#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Technologies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#168#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Deployment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="44" column="100" selection-start-line="44" selection-start-column="100" selection-end-line="44" selection-end-column="100" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#168#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="76" column="97" selection-start-line="76" selection-start-column="97" selection-end-line="76" selection-end-column="97" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#168#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/Register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="26" column="75" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#125#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/API.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="19" column="109" selection-start-line="19" selection-start-column="109" selection-end-line="19" selection-end-column="109" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#168#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="53" column="331" selection-start-line="53" selection-start-column="331" selection-end-line="53" selection-end-column="331" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#125#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Sidebar/User/SidebarData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -688,10 +670,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/GettingStartedUser.js">
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/views/userDocPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="457">
+          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#125#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/Register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#125#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/ConnectToServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="45" column="57" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="57" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#168#229#0" expanded="true" />
@@ -701,8 +712,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/CreateServer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="51" column="92" selection-start-line="51" selection-start-column="92" selection-end-line="51" selection-end-column="92" />
+        <state relative-caret-position="430">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#168#229#0" expanded="true" />
@@ -710,10 +721,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/ConnectToServer.js">
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/UserDocumentation/GettingStartedUser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="50" column="92" selection-start-line="50" selection-start-column="92" selection-end-line="50" selection-end-column="92" />
+        <state relative-caret-position="366">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#168#229#0" expanded="true" />
@@ -721,10 +732,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/views/userDocPage.js">
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/API.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        <state relative-caret-position="358">
+          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#168#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Architecture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#168#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/ComponentsAndSolution.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#168#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Deployment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#168#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/GettingStartedTech.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#168#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Norms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#168#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Technologies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#168#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#168#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Blog/TechnicalDocumentation/Tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#168#229#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

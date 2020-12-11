@@ -43,6 +43,7 @@ export default function Login(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Utilisateur</h1>
+                        <div className={classes.content}>
                         <br/>
                         <h2>Service d'Authentification au compte <b>TechnoServs</b></h2>
                         <h4>Si vous souhaitez vous connecter à votre compte TechnoServs, munissez-vous de votre adresse mail et de votre mot de passe que vous aviez utilisé lors de la création de votre compte chez TechnoServs.
@@ -53,6 +54,7 @@ export default function Login(props) {
                         <br/>
                         <h4>Vous n’avez alors plus qu’à entrer dans le premier champ votre adresse mail, et dans le deuxième votre mot de passe. Veuillez bien faire attention toutefois que ce soient les informations que vous avez entré précédemment lors de la création de votre compte.(Comme on peut le voir sur l'exmple plus haut)</h4>
                         <div>
+                        </div>
                         </div>
                     </GridItem>
                 </GridContainer>

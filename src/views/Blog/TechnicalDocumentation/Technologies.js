@@ -65,12 +65,14 @@ export default function Technologies(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Technique</h1>
+                        <div className={classes.content}>
                         <br/>
                         <h2>Présentation ds technologies</h2>
                         <img className={classes.img} src={'https://i.imgur.com/U9gK52Q.png'}/>
                         <br/>
                         <ReactMarkdown source={markdown}/>
                         <div>
+                        </div>
                         </div>
                     </GridItem>
                 </GridContainer>

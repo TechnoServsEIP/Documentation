@@ -52,6 +52,7 @@ export default function Architecture(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Technique</h1>
+                        <div className={classes.content}>
                         <br/>
                         <h2>Architecture</h2>
                         <br/>
@@ -59,6 +60,7 @@ export default function Architecture(props) {
                         <br/>
                         <ReactMarkdown source={markdown}/>
                         <div>
+                        </div>
                         </div>
                     </GridItem>
                 </GridContainer>

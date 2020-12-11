@@ -43,6 +43,7 @@ export default function Tools(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Technique</h1>
+                        <div className={classes.content}>
                         <br/>
                         <h2>Outils d'organisation et de communication</h2>
                         <br/>
@@ -76,7 +77,7 @@ export default function Tools(props) {
                         <h3><b>Google Drive</b></h3>
                         <h4>Pour le stockage de nos documents, nous utilisons <b>Google Drive</b>, qui nous fournit une interface graphique simple à utiliser.
                         </h4>
-
+                        </div>
                     </GridItem>
                 </GridContainer>
             </div>

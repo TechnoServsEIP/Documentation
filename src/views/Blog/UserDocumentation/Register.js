@@ -53,6 +53,7 @@ export default function Register(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Utilisateur</h1>
+                        <div className={classes.content}>
                         <br/>
                         <h2>Création du compte <b>TechnoServs</b></h2>
                         <div>
@@ -62,6 +63,7 @@ export default function Register(props) {
                             <br/>
                             <img className={classes.img} src={'https://i.imgur.com/VJ8xMJb.png'}/>
                             <ReactMarkdown source={markdownExplication}/>
+                        </div>
                         </div>
                     </GridItem>
                 </GridContainer>

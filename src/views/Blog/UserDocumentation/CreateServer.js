@@ -43,6 +43,7 @@ export default function CreateServer(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Utilisateur</h1>
+                        <div className={classes.content}>
                         <h2>Créer son serveur de jeux personnel</h2>
                         <h4>
                             Pour créer un serveur de jeu vous devez avoir un compte <b>TechnoServs</b> et être connecté, si ce n'est pas le cas vous pouvez vous réferez aux documents antérieurs.<br/>
@@ -56,6 +57,7 @@ export default function CreateServer(props) {
                             Suite à quoi il faudra procéder au payment (grâce à <b>stripe</b>). Et notre serveur devrait être prêt.
                         </h4>
                         <div>
+                        </div>
                         </div>
                     </GridItem>
                 </GridContainer>

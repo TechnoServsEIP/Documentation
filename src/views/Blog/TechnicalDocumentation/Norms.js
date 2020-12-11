@@ -55,9 +55,11 @@ export default function Norms(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Technique</h1>
+                        <div className={classes.content}>
                         <br/>
                         <ReactMarkdown source={markdown}/>
                         <div>
+                        </div>
                         </div>
                     </GridItem>
                 </GridContainer>

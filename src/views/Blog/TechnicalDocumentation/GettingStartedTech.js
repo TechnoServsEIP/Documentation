@@ -70,6 +70,7 @@ export default function GettingStartedTech(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Technique</h1>
+                        <div className={classes.content}>
                         <br/>
                         <h3>Présentation</h3>
                         <br/>
@@ -77,6 +78,7 @@ export default function GettingStartedTech(props) {
                         <br/>
                         <ReactMarkdown source={markdown}/>
                         <div>
+                        </div>
                         </div>
                     </GridItem>
                 </GridContainer>

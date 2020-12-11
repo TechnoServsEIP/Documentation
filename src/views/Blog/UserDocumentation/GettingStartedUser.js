@@ -52,9 +52,11 @@ export default function GettingStartedUser(props) {
                         </GridItem>
                         <GridItem  style={{marginLeft: "220px"}}>
                             <h1>Documentation Utilisateur</h1>
+                            <div className={classes.content}>
                             <img className={classes.gif2} src={'https://media.giphy.com/media/FQyQEYd0KlYQ/giphy.gif'}/>
-                            <ReactMarkdown source={markdown}/>
+                            <ReactMarkdown className={classes.content} source={markdown}/>
                             <div>
+                            </div>
                             </div>
                         </GridItem>
                     </GridContainer>

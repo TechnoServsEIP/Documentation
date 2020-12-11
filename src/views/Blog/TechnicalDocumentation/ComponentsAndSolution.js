@@ -55,6 +55,7 @@ export default function ComponentAndSolution(props) {
                     </GridItem>
                     <GridItem  style={{marginLeft: "220px"}}>
                         <h1>Documentation Technique</h1>
+                        <div className={classes.content}>
                         <br/>
                         <h2>Composants et modeules de la solution</h2>
                         <br/>
@@ -63,6 +64,7 @@ export default function ComponentAndSolution(props) {
                         <img src="https://i.imgur.com/5NeNZtJ.png" className={classes.img3}/>
                         <ReactMarkdown source={markdown}/>
                         <div>
+                        </div>
                         </div>
                     </GridItem>
                 </GridContainer>

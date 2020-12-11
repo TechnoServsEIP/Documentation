@@ -58,7 +58,11 @@ const landingPageStyle = {
         height: "680px",
         width: "1080px",
         marginLeft: '5%'
-    }
+    },
+    content:
+        {
+            marginLeft: '3%'
+        }
 };
 
 export default landingPageStyle;
