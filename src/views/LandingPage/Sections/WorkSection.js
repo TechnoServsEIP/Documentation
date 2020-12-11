@@ -27,11 +27,11 @@ export default function WorkSection() {
             collaboration. We will responde get back to you in a couple of
             hours.
           </h4>
-          <form>
+          <form action={"https://formsrpee.io/mkwkkza"} method={"POST"}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
-                  labelText="Your Name"
+                  labelText="Titre"
                   id="name"
                   formControlProps={{
                     fullWidth: true
@@ -50,6 +50,8 @@ export default function WorkSection() {
               <CustomInput
                 labelText="Your Message"
                 id="message"
+                name="message"
+                type={"textarea"}
                 formControlProps={{
                   fullWidth: true,
                   className: classes.textArea

@@ -16,6 +16,14 @@ const landingPageStyle = {
     },
     breadcrumbs: {
         background: 'primary'
+    },
+    img: {
+        height: "350px",
+        width: "350px",
+        marginLeft: '25%'
+    },
+    gif2: {
+        marginLeft: '25%'
     }
 };
 

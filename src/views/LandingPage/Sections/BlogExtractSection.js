@@ -9,8 +9,11 @@ import Button from "@material-ui/core/Button";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
+import { Link } from "react-router-dom";
 
-import GettingStarted from "./../BlogExtract/GettinStarted.js"
+import GettingStartedUserCard from "../BlogExtract/GettinStartedUser.js"
+import RegisterCard from '../BlogExtract/RegisterUser.js'
+import GettingStartedTechCard from '../BlogExtract/GettingStartedTech.js'
 
 const useStyles = makeStyles((theme) => ({
     btn: {
@@ -46,50 +49,42 @@ export default function BlogExtractSection() {
         <div className={classes.section}>
             <GridContainer justify="center">
                 <GridItem xs={12} sm={12} md={8}>
-                    <h2 className={classes.title}>Some information that might help you</h2>
+                    <h2 className={classes.title}>Quelques documents qui pourraient vous intéresser.</h2>
                     <h5 className={classes.description}>
-                        You can just click on either button "Technical Documentation" or "User Documentation" to filter you choice or to "All Documentation" to see all of it.
+                        Cliquez juste sur <b>En savoir plus</b>.
                     </h5>
+                    <br/>
+                    <br/>
                 </GridItem>
             </GridContainer>
-            <ButtonGroup color="primary" aria-label="outlined primary button group" fullWidth={true} size="large" className={classes.btn}>
-                <Button>User Documentation</Button>
-                <Button>All</Button>
-                <Button>Technical Documentation</Button>
-            </ButtonGroup>
         </div>
             <div>
                 <GridContainer>
                     <GridItem xs={12} sm={12} md={4} className={classes.item}>
-                        <GettingStarted/>
+                        <GettingStartedUserCard/>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4} className={classes.item}>
-                        <GettingStarted/>
+                        <RegisterCard/>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4} className={classes.item}>
-                        <GettingStarted/>
+                        <GettingStartedTechCard/>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4} className={classes.item}>
-                        <GettingStarted/>
+
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4} className={classes.item}>
-                        <GettingStarted/>
+
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4} className={classes.item}>
-                        <GettingStarted/>
+
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4} className={classes.itemBottom}>
-                        <GettingStarted/>
+
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4} className={classes.itemBottom}>
-                        <GettingStarted/>
+
                     </GridItem>
                 </GridContainer>
-            </div>
-            <div className={classes.section}>
-                <Button variant="contained" color="primary">
-                    Show More
-                </Button>
             </div>
         </div>
     );

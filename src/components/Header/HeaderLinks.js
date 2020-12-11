@@ -18,8 +18,8 @@ import { Apps, CloudDownload } from "@material-ui/icons";
 import Button from "components/CustomButtons/Button.js";
 
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
-import UserDocPage from "../../views/Blog/UserDocumentation/UserDocPage";
-import TechnicalDocPage from "../../views/Blog/TechnicalDocumentation/TechnicalDocPage";
+import GettingStartedUser from "../../views/Blog/UserDocumentation/GettingStartedUser";
+import TechnicalDocPage from "../../views/Blog/TechnicalDocumentation/GettingStartedTech";
 
 const useStyles = makeStyles(styles);
 
@@ -28,15 +28,15 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-          <Link to={"/documentation/user"} color="transparent"
+          <Link to={"/documentation/getting-started-user"} color="transparent"
                 className={classes.navLink}>
-              User Documentation
+              Documentation Utilisateur
           </Link>
     </ListItem>
         <ListItem className={classes.listItem}>
-            <Link to={"/documentation/technical"} color="transparent"
+            <Link to={"/documentation/getting-started-technical"} color="transparent"
                   className={classes.navLink}>
-                Technical Documentation
+                Documentation Technique
             </Link>
         </ListItem>
         <ListItem className={classes.listItem}>

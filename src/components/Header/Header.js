@@ -2,6 +2,7 @@ import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // nodejs library to set properties for components
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
@@ -14,7 +15,8 @@ import Drawer from "@material-ui/core/Drawer";
 // @material-ui/icons
 import Menu from "@material-ui/icons/Menu";
 // core components
-import styles from "assets/jss/material-kit-react/components/headerStyle.js";
+import Logo from "../../assets/img/logo/ts-logo-full.svg";
+import styles from "../../assets/jss/material-kit-react/components/headerStyle.js";
 
 const useStyles = makeStyles(styles);
 
@@ -53,7 +55,7 @@ export default function Header(props) {
         .classList.remove(classes[changeColorOnScroll.color]);
     }
   };
-  const { color, rightLinks, leftLinks, brand, fixed, absolute } = props;
+  const { color, rightLinks, leftLinks, brand, brand2, fixed, absolute } = props;
   const appBarClasses = classNames({
     [classes.appBar]: true,
     [classes[color]]: color,
@@ -62,7 +64,9 @@ export default function Header(props) {
   });
   //const brandComponent = <img src={brand} alt="oui" className={classes.img}></img>;
   const brandComponent =
-      <Button href={"/"} className={classes.title}>{brand}</Button>
+      <Link to="/">
+        <img src={Logo} className={classes.logo}/>
+      </Link>
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>

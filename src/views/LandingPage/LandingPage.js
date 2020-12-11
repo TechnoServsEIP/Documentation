@@ -14,6 +14,7 @@ import Button from '@material-ui/core/Button';
 import Parallax from "components/Parallax/Parallax.js";
 import Header from "components/Header/Header.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
+import Divider from '@material-ui/core/Divider';
 
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
@@ -30,31 +31,33 @@ export default function LandingPage(props) {
     <div>
         <Header
             color="transparent"
-            brand="TechnoServs"
+            logo=""
             fixed
             rightLinks={<HeaderLinks />}
             changeColorOnScroll={{
                 height: 200,
-                color: "white"
+                color: "white",
             }}
             {...rest}
         />
-      <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+      <Parallax filter image={require("assets/img/circuit-board.svg")}>
         <div className={classes.container}>
           <GridContainer justify="center">
             <GridItem>
-              <h1 className={classes.title}>TechnoServs Documentation.</h1>
+              <h1 className={classes.title}>Documentation TechnoServs.</h1>
             </GridItem>
             <GridItem>
                 <Button
                 variant="contained" color="primary" size={"large"} className={classes.btnLeft}
+                href={'https://app.technoservs.co/#/'}
             >
-                Create a server
+                Créer un serveur
             </Button>
                 <Button
                     variant="contained" color="primary" size={"large"} className={classes.btnRight}
+                    href={'https://discord.gg/Ac39RxYK'}
                 >
-                    Join our Discord server
+                    Rejoindre nôtre serveur discord
                 </Button>
             </GridItem>
             </GridContainer>
@@ -63,7 +66,7 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
             <BlogExtractSection/>
-          <WorkSection />
+            <Divider variant="middle" />
         </div>
       </div>
     </div>
